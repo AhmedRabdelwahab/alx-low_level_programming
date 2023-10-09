@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/*
- * Ahmed is Muslim*/
+//Ahmed is muslim
 
 int main(void)
 {
