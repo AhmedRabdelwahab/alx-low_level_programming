@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*Ahmed is muslim*/
+/**
+ * main - Entry Point
+ * 
+ * Return: Always 0 (success)
+ * */
 
 int main(void)
 {
