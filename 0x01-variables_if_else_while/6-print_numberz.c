@@ -8,7 +8,7 @@
 * Return: Always 0.
 */
 
-int main(void)
+int main()
 {
 	int number;
 	for (number = '0' ; number <= '9' ; number++)
