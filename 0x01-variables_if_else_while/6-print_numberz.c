@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
-* main - Prints a random number decides whether it is positive,negative,orzero.
-*
-* Return: Always 0.
-*/
+ * main - Entry point
+ * Description: prints char below 10
+ * Return: Always 0 (success)
+ */
 
 int main()
 {
