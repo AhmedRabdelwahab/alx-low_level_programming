@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int num1 = 0, num2, num3,num4;
+	int num1 = 0, num2, num3, num4;
 
 	while (num1 <= 9)
 	{
@@ -27,11 +27,10 @@ int main(void)
 				putchar(' ');
 				putchar(num3 + 48);
 				putchar(num4 + 48);
-					if (num1 + num2 + num3 + num4 != 35)
+					if (num1 + num2 + num3 + num4 < 35)
 					{
 						putchar(',');
 						putchar(' ');
-					
 			}
 			num4++;
 		}
