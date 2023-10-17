@@ -8,38 +8,25 @@
 
 int main(void)
 {
-	int num1 = 0, num2, num3, num4;
+	int num1, num2;
 
-	while (num1 <= 9)
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		num2 = 0;
-
-		while (num2 <= 8)
+		for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
-			num3 = 0;
-			while (num3 <= 9)
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+			if (num1 == 98 && num2 == 99)
+				continue;
 			{
-				num4 = 0;
-				while (num4 <= 9)
-			{
-				putchar(num1 + 48);
-				putchar(num2 + 48);
+				putchar(',');
 				putchar(' ');
-				putchar(num3 + 48);
-				putchar(num4 + 48);
-					if (num1 + num2 + num3 + num4 < 35)
-					{
-						putchar(',');
-						putchar(' ');
 			}
-			num4++;
 		}
-		num3++;
 	}
-	num2++;
-	}
-	num1++;
-}
 putchar('\n');
 return (0);
 }
