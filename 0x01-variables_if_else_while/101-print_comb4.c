@@ -19,7 +19,6 @@ int main(void)
 			num3 = 2;
 			while (num3 <= 9)
 			{
-			
 			if (num1 != num2 && num2 != num3 && num1 < num2 && num2 < num3)
 			{
 				putchar(num1 + 48);
