@@ -14,8 +14,8 @@ int main(void)
 
 	for (letter = 0; letter <= 9; letter++)
 	{
-		putchar((letter%10)+'0');
-		if(letter == 9)
+		putchar((letter % 10) + '0');
+		if (letter == 9)
 		{
 			continue;
 		}
