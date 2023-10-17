@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char letter;
+	int letter;
 
 	for (letter = '0'; letter <= '8'; letter++)
 	{
