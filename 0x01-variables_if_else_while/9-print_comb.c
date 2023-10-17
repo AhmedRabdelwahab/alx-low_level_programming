@@ -12,12 +12,14 @@ int main(void)
 {
 	int letter;
 
-	for (letter = '0'; letter <= '8'; letter++)
+	for (letter = 0; letter <= 9; letter++)
 	{
-		putchar(letter);
+		putchar((letter%10)+'0');
+            if(letter == 9)
+                continue;
 		putchar(',');
 		putchar(' ');
 	}
-		putchar('9');
+		putchar('\n');
 	return (0);
 }
