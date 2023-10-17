@@ -14,7 +14,7 @@ int main(void)
 	{
 		num2 = 0;
 
-		while (num2 <= 9)
+		while (num2 <= 8)
 		{
 			num3 = 0;
 			while (num3 <= 9)
