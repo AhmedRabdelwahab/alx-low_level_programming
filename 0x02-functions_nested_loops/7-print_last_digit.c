@@ -8,9 +8,16 @@
  * Return: always 0
  */
 
-int print_last_digit(int x)
+int print_last_digit(int n)
 {
-	int z;
-	z = x % 10;
-	return (z);
+	int x;
+	if (n < 0)
+	{
+	x = -1 * (n % 10);
+	}
+	else
+	{
+	x = n % 10;
+	}
+	return (x);
 }
