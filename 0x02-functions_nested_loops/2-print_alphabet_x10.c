@@ -8,9 +8,11 @@
 void print_alphabet_x10(void)
 {
 	int h;
+	
 	for (h = 1; h <= 10; h++);
 	{
 	int ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
