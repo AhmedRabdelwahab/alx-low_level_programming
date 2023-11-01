@@ -3,7 +3,7 @@
 /**
  * print_last_digit - it is the function name
  *
- * @x: it is the intger
+ * @n: it is the intger
  *
  * Return: always 0
  */
@@ -19,5 +19,6 @@ int print_last_digit(int n)
 	{
 	x = n % 10;
 	}
+	_putchar(x + '0');
 	return (x);
 }
