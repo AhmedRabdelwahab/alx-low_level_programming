@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha - it is a programe that check 
- * the c character and if it alphabetic it return 1
+ * _isalpha - it is a programe that check
+ * the c parameter or member character and if it alphabetic it return 1
  * and it otherwise it return 0
  */
 
