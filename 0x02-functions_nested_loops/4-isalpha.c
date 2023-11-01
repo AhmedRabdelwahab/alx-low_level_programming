@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha - it is a programe that check
- * the c parameter or member character and if it alphabetic it return 1
- * and it otherwise it return 0
+ * _isalpha - checking the
+ * the parameter or member character
+ *
+ * @c: it takes a valu from ather functions
+ *
+ * Return: 1 if it alpha and 0 if otherwise
  */
 
 int _isalpha(int c)
