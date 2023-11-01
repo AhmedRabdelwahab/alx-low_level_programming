@@ -6,7 +6,7 @@
  *		the alphabet a - z X10
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int h,ch;
 
