@@ -11,7 +11,7 @@
  * Return: always 0
  */
 
-int add(intx, intz)
+int add(int x, int z)
 {
 	int n;
 
