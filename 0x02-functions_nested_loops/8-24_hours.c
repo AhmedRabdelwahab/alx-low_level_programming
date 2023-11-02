@@ -1,39 +1,29 @@
 #include "main.h"
 
 /**
- * 24_hours - function
+ * jack_bauer - function
  *
- * @n: it is a variable
+ * @hr: it is a variable
+ * @min: it is a variable
  *
  * Return: always 0
  */
 
 void jack_bauer(void)
 {
-	char n , x;
-	for (n = 0; n <= 23; n++)
+	char hr, min;
+
+	for (hr = 0; hr <= 23; hr++)
 	{
-		if (n <= 9)
+		for (min = 0; min <= 59; min++)
 		{
-			_putchar('0');
+			_putchar((hr / 10) + 48);
+			_putchar((hr % 10) + 48);
+			_putchar(':');
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
+			_putchar('\n');
 		}
-		else
-		{
-		_putchar(n);
-		_putchar(':');
-		}
-		for (x = 0; x <= 59; x++)
-		{
-			if (x <= 9)
-		{
-			_putchar('0');
-		}
-		else
-		{
-		_putchar(x);
-		}
-		}
-		_putchar('\n');
-		
+
 	}
 }
