@@ -3,8 +3,8 @@
 /**
  * jack_bauer - function
  *
- * @hr: it is a variable
- * @min: it is a variable
+ * @hr: it is a hr variable
+ * @min: it is a min variable
  *
  * Return: always 0
  */
