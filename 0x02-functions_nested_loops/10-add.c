@@ -15,7 +15,7 @@ int add(int x, int z)
 {
 	int n;
 
-	n = x + z;
+	n = (x + z);
 
 	printf("%d\n", n);
 	return (n);
