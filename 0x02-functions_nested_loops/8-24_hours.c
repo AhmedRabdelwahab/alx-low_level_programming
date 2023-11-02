@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - function
+ * jack_bauer - function hr min
  *
  * @hr: it is a hr variable
  * @min: it is a min variable
