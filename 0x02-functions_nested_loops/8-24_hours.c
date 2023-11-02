@@ -1,12 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - function hr min
- *
- * @hr: it is a hr variable
- * @min: it is a min variable
- *
- * Return: always 0
+ * jack_bauer - prints everyday's minut
  */
 
 void jack_bauer(void)
