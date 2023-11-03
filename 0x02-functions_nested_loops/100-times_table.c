@@ -31,7 +31,7 @@ void print_times_table(int n)
 		 * put space if product is a single number
 		 * place the first digit if its two numbers
 		 */
-		if (prod <= n * 10)
+		if (prod <= n * 2)
 			_putchar(' ');
 		else
 			_putchar((prod / 10) + 48); /*get the first digit*/
