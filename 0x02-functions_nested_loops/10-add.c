@@ -6,7 +6,6 @@
  *
  * @x: it will be adding
  * @z: it will be adding
- * @n: it will be return
  *
  * Return: always 0
  */
