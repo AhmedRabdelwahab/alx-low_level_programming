@@ -37,7 +37,6 @@ void print_times_table(int n)
 		else
 			_putchar((prod / 10) + 48); /*get the first digit*/
 	_putchar((prod % 10) + 48); /*get the second digit*/
-	_putchar((prod / 100) + 48);
 	}
 	_putchar('\n');
 	}
