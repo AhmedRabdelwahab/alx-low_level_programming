@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * add - it is a function
+ * add - @n: it will be return it is a function
  *
  * @x: it will be adding
  * @z: it will be adding
