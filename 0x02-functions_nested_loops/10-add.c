@@ -14,8 +14,5 @@ int add(int x, int z)
 {
 	int n = x + z;
 
-
-	putchar(n);
-	putchar('\n');
 	return (n);
 }
