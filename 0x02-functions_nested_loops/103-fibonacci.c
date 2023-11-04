@@ -10,17 +10,26 @@ int main(void)
 {
 	int count;
 	unsigned long int fib1 = 0, fib2 = 1, sum;
-	unsigned long int s;
 
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < 32; count++)
 	{
 		sum = fib1 + fib2;
+
+		if (sum <= 4000000)
+		{
+		printf("%lu", sum);
+		}
 
 		fib1 = fib2;
 		fib2 = sum;
 
+		if (count == 31)
+		{
+			printf("\n");
+		}
+		else
+			printf(", ");
+
 	}
-		unsigned long int s + s = sum;
-		printf("%lu\n", s);
 	return (0);
 }
