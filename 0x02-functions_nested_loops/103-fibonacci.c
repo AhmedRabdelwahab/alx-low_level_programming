@@ -20,7 +20,7 @@ int main(void)
 		fib2 = sum;
 
 	}
-		s += sum;
+		unsigned long int s + s = sum;
 		printf("%lu\n", s);
 	return (0);
 }
