@@ -10,17 +10,16 @@
 
 int main()
 {
-	int n;
+	int n, sum;
 
 	for (n = 1024; n >= 0; n--)
 	{
-		int a = n % 5;
-		int b = n % 3;
 
-		if (a == 0 || b == 0)
+		if ((n % 3 == 0) || (n % 5 == 0))
 		{
-			printf("%d\n", n);
+			sum += n;
 		}
 	}
+	printf("%d\n", sum);
 	return (0);
 }
