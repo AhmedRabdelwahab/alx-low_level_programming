@@ -8,8 +8,10 @@
  * @b: a variable
  */
 
-int main(int n)
+int main()
 {
+	int n;
+
 	for (n = 1024; n >= 0; n--)
 	{
 		int a = n % 5;
