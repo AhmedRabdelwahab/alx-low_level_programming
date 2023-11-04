@@ -3,12 +3,10 @@
 /**
  * main - a function
  *
- * @n: a variable
- * @a: a variable
- * @b: a variable
+ * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int n, sum;
 
