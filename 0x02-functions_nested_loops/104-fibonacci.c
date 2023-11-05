@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * numLength - a function 
+ * numLength - a function
  *
  * @num: a varaible
  *
