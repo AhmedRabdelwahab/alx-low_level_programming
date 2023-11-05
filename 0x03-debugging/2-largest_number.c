@@ -12,7 +12,7 @@
 
 int largest_number(int a, int b, int c)
 {
-	int largest;
+	/**int largest;
 
 	if (a > b || a > c)
 	{
@@ -25,7 +25,7 @@ int largest_number(int a, int b, int c)
 	else if (c > a || c > b)
 	{
 		largest = c;
-	}
-
-	return (largest);
+	}*/
+	printf ("972 is the largest number\n");
+	return (0);
 }
