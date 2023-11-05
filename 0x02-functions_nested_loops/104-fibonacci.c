@@ -1,4 +1,28 @@
-#include <stdio.h>
+#include "main.h"
+
+/**
+ * numLength - a function 
+ *
+ * @num: a varaible
+ *
+ * Return: 0
+ */
+
+int numLength(int num)
+{
+	int length = 0;
+
+	if (!num)
+		return (1);
+
+	while (num)
+	{
+		num = num / 10;
+		length += 1;
+	}
+
+	return (length);
+}
 
 /**
  * main - a function
@@ -8,24 +32,34 @@
 
 int main(void)
 {
-	int count;
-	unsigned long int fib1 = 0, fib2 = 1, sum;
+	int count, initial0s;
+	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
-	for (count = 0; count < 97; count++)
+	for (count = 1; count <= 98; count++)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
+		if (f1o > 0)
+			printf("%lu", f1o);
+		initial0s = numLength(mx) - 1 - numLength(f1);
 
-		fib1 = fib2;
-		fib2 = sum;
-
-		if (count == 96)
+		while (f1o > 0 && initial0s > 0)
 		{
-			printf("\n");
+			printf("%d", 0);
+			initial0s--;
 		}
-		else
-			printf(", ");
 
+		printf("%lu", f1);
+
+		sum = (f1 + f2) % mx;
+		sumo = f1o + f2o + (f1 + f2) / mx;
+		f1 = f2;
+		f1o = f2o;
+		f2 = sum;
+		f2o = sumo;
+
+		if (count != 98)
+			printf(", ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
