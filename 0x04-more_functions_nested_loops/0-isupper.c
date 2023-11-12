@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isupper - a function
+ * _isupper - a function
  *
  * @c: variable
  *
