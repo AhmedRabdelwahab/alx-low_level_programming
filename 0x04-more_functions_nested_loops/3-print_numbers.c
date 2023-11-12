@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - is a function
- *
- * @n: is a variable
  */
 
 void print_numbers(void)
