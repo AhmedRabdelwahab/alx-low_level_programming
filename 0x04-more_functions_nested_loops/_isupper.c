@@ -8,7 +8,7 @@
  * Return: On success 1.
  *	On error, 0 is returned, and errno is set appropriately.
  */
-	int _isupper(int c)
+	int_isupper(int c)
 	{
 		return (write(1, &c, 1));
 	}
