@@ -2,9 +2,6 @@
 
 /** mul - function
  *
- * @a: variable
- * @b: variable
- *
  * Return: Always a * b
  */
 
