@@ -2,6 +2,9 @@
 
 /**
  * print_line - function
+ *
+ * @n: variable
+ * @co: variable
  */
 
 void print_line(int n)
