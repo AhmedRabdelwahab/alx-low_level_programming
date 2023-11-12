@@ -1,11 +1,11 @@
 #include "main.h"
 
-/** mul - function
+/** mul - multiplies two integers
  *
  * @a: frist input
  * @b: second input
  *
- * Return: rsult
+ * Return: return rsults
  */
 
 int mul(int a, int b)
