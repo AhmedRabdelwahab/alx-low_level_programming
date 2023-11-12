@@ -2,8 +2,6 @@
 
 /**
  * print_line - function
- *
- * Return: Always 0
  */
 
 void print_line(int n)
