@@ -5,7 +5,7 @@
  * @a: variable
  * @b: variable
  *
- * Return: 0.
+ * Return: Always 0
  */
 
 int mul(int a, int b)
