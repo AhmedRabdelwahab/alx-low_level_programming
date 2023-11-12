@@ -11,7 +11,7 @@
 
 int _isupper(int c)
 {
-	if (c::_isupper)
+	if (c >= 56 && c <= 90)
 	{
 		return (1);
 	}
