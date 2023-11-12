@@ -4,9 +4,6 @@
  * print_line - function
  *
  * @n: variable
- * @co: variable
- *
- * Return: return results
  */
 
 void print_line(int n)
