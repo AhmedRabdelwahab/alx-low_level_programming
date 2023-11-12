@@ -9,7 +9,7 @@
  *	Returns 0 otherwise
  */
 
-int_isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 56 && c <= 90)
 	{
