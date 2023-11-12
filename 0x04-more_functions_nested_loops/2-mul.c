@@ -2,7 +2,10 @@
 
 /** mul - function
  *
- * Return: Always a * b
+ * @a: frist input
+ * @b: second input
+ *
+ * Return: rsult
  */
 
 int mul(int a, int b)
