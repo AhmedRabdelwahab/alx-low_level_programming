@@ -11,15 +11,15 @@ int main(int count)
 {
 	for (count = 1; count <= 100; count++)
 	{
-		if ((count % 3 == 0) && !(count % 5 == 0))
+		if (count % 3 == 0 && !(count % 5 == 0))
 		{
 			printf("Fizz");
 		}
-		if ((count % 5 == 0) && !(count % 3 == 0))
+		if (count % 5 == 0 && !(count % 3 == 0))
 		{
 			printf("Buzz");
 		}
-		if ((count % 3 == 0) && (count % 5 == 0))
+		if (count % 3 == 0 && count % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
