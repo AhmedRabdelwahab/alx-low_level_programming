@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - function
+ * main - function
  *
  * Return: Always 0
  */
@@ -22,8 +22,9 @@ int main(void)
 		else
 			printf("%d", count);
 		if (count != 100)
-		printf(" ");
+			printf(" ");
+		else
+			printf("\n");
 	}
-	printf("\n");
 	return (0);
 }
