@@ -7,10 +7,8 @@
  * Return: Always 0
  */
 
-int main()
+int main(int count)
 {
-	int count;
-
 	for (count = 1; count <= 100; count++)
 	{
 		if (count % 3 = 0)
