@@ -4,6 +4,8 @@
  * print_triangle - function
  *
  * @size: variable
+ *
+ * Return: 0
  */
 
 void print_triangle(int size)
