@@ -4,6 +4,8 @@
  * print_square - function
  *
  * @size: varible
+ *
+ * Return: Always 0
  */
 
 void print_square(int size)
