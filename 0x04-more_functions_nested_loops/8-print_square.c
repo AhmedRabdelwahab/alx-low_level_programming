@@ -4,6 +4,8 @@
  * print_square - function #
  *
  * @size: varible
+ * @r: varible
+ * @c: varible
  *
  * Return: Always 0
  */
