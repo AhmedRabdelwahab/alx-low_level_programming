@@ -44,9 +44,11 @@ void _maxnum(long int num)
 			large = prnum;
 		}
 	}
+
+
 		if (num > 2)
 			large = num;
-		printf ("%d\n", large);
+		printf("%d\n", large);
 }
 
 /**
