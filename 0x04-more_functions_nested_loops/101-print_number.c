@@ -16,9 +16,11 @@ void print_number(int n)
 		_putchar('-');
 		num = -num;
 	}
+
 	/*one*/
 	if ((num / 10) > 0)
 		print_number(num / 10);
+
 	/*two*/
 	_putchar((num % 10) + 48)
 }
