@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen - a function
+ * _strlen - is a function
  * @s: input
  * Return: counter
  */
