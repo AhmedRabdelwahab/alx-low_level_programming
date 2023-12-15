@@ -1,16 +1,14 @@
+
 #include "main.h"
+
 /**
- * swap_int - a function that takes a pointer to an int as parameter
- * and swap the value of each other
- * @a: input
- * @b: input
- * Return: a, b
+ * swap_int - Swaps the values of two integers.
+ * @a: The first integer to be swapped.
+ * @b: The second integer to be swapped.
  */
 void swap_int(int *a, int *b)
 {
-	int re;
-
-	re = *a;
+	int tmp = *a;
 	*a = *b;
-	*b = re;
+	*b = tmp;
 }
