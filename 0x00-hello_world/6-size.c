@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main = it's the intry point
+ * main - it's the intry point
  * this program prints the sizes of the defferent data types
  * Return: Always 0
  */
