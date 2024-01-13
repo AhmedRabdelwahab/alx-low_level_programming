@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - function is the intry point
  * this program prints text
- * and returns 0
+ * Return: Always 0
  */
 int main(void)
 {
